@@ -1,0 +1,176 @@
+@import url("https://fonts.google.com/specimen/Hanken+Grotesk");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Hanken Grotesk;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(221, 100%, 96%);
+}
+.container{
+    background: hsl(0, 0%, 100%);
+    margin: auto;
+    width: 520px;
+    height: 400px;
+    margin-top: 12%;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px hsl(220, 11%, 84%); 
+}
+.card-left{
+    width: 260px;
+    background: hsl(241, 81%, 54%);
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 30px;
+}
+.card-left p{
+    color: hsl(0, 0%, 100%);
+    /* font-size: 18px; */
+    /* text-align: center; */
+}
+.card-left .head{
+    padding-bottom: 30px;
+}
+.card-left .score{
+    margin: auto;
+    background: hsla(256, 72%, 46%, 1);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.score .word h2{
+    color: white;
+    font-size: 50px;
+}
+.score .word p{
+    font-size: 14px;
+    opacity: 70%;
+}
+.score .word{
+    padding-top: 20%;
+}
+.card-left .remark{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 18px;
+}
+.card-left .comment{
+    font-size: 13px;
+}
+.card-right{
+    width: 260px;
+}
+.right-head{
+    padding-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.right-head p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.right-content{
+    display: flex;
+}
+.right-content p{
+    font-size: 12px;
+}
+.right-row{
+    margin: auto;
+    width: 210px;
+}
+.right-row .image{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Reaction, .Memory, .Verbal, .Visual{
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.Reaction .rate p, .Memory .rate p, .Verbal .rate p, .Visual .rate p{
+    color: black;
+}
+.Reaction span, .Memory span, .Verbal span, .Visual span{
+    opacity: 50%;
+}
+.Reaction{
+    background: hsla(0, 100%, 67%, 15%);
+}
+.Reaction p{
+    font-weight: 600;
+    color:  hsla(0, 50%, 40%, 60%);
+}
+.Reaction .text{
+    margin-right: 70px;
+}
+.Memory{
+    background: hsla(39, 100%, 56%, 15%);
+}
+.Memory p{
+    font-weight: 600;
+    color:  hsla(39, 100%, 56%, 80%);
+}
+.Memory .text{
+    margin-right: 75px;
+}
+.Verbal{
+    background: hsla(166, 100%, 37%, 15%);
+}
+.Verbal p{
+    font-weight: 600;
+    color:  hsla(166, 100%, 37%, 80%);
+}
+.Verbal .text{
+    margin-right: 85px;
+}
+.Visual{
+    background: hsla(234, 85%, 45%, 15%);
+}
+.Visual p{
+    font-weight: 600;
+    color:  hsla(234, 85%, 45%, 80%);
+}
+.Visual .text{
+    margin-right: 85px;
+}
+.card-button{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    border-radius: 20px;
+    
+}
+.card-button button{
+    background: hsl(241, 81%, 54%);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+}
+.card-button button:active{
+    background: hsl(234, 85%, 20%);
+    
+}
