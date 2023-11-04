@@ -179,6 +179,64 @@ body{
         margin-top: 15%;
     }
 }
+@media screen and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        border-radius: 0px;
+        height: 200px;
+    }
+    .card-left{
+        width: 100%;
+        padding-top: 30px;
+        border-radius: 0px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .score .word p{
+        font-size: 13px;
+    }
+    .card-left .remark{
+        margin-top: 25px;
+        padding-bottom: 10px;
+    }
+    .card-left .comment{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .right-row{
+        width: 430px;
+        margin-left: 25px; 
+    }
+    /* .Reaction, .Memory, .Verbal, .Visual{
+        position: relative;
+        width: 100%;
+        padding: 10px 0px;
+        border: none;
+        outline: none;
+    } */
+    .Reaction .text{
+        margin-right: 280px;
+    }
+    .Memory .text{
+        margin-right: 285px;
+    }
+    .Verbal .text{
+        margin-right: 295px;
+    }
+    .Visual .text{
+        margin-right: 295px;
+    }
+    .card-button{
+        margin-left: 25px;
+        width: 430px;
+        border-radius: 20px;
+    }
+    .card-button button{
+        background: hsl(234, 85%, 20%);
+    }
+}
 @media screen and (max-width: 375px){
     .container{
         display: flex;
@@ -186,11 +244,9 @@ body{
         margin-top: 0;
         border-radius: 0px;
         height: 200px;
-        /* box-shadow: 10px 10px 20px hsl(220, 11%, 84%);  */
     }
     .card-left{
         width: 100%;
-        /* min-height: 44vh; */
         padding-top: 30px;
         border-radius: 0px;
         border-bottom-right-radius: 30px;
@@ -210,12 +266,9 @@ body{
     }
     .card-left .comment{
         font-size: 13px;
-        padding-bottom: 20px;
     }
     .right-row{
         width: 325px;
-        margin-left: 25px;
-        
     }
     .Reaction, .Memory, .Verbal, .Visual{
         position: relative;
@@ -223,7 +276,6 @@ body{
         padding: 10px 0px;
         border: none;
         outline: none;
-        /* justify-content: space-between; */
     }
     .Reaction .text{
         margin-right: 180px;
@@ -238,12 +290,6 @@ body{
         margin-right: 195px;
     }
     .card-button{
-        margin-left: 25px;
         width: 325px;
-        border-radius: 20px;
-        
-    }
-    .card-button button{
-        background: hsl(234, 85%, 20%);
     }
 }    
