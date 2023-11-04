@@ -240,11 +240,9 @@ body{
 @media screen and (max-width: 376px){
     .container{
         display: flex;
-        flex-direction: column;
-        margin-top: 0;
-        border-radius: 0px;
+        flex-direction: row;
         height: 200px;
-        width: 375px;
+        width: 100%;
     }
     .card-left{
         width: 100%;
