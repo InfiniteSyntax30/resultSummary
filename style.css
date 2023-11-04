@@ -100,7 +100,6 @@ body{
     margin-bottom: 20px;
     border-radius: 6px;
     display: flex;
-    /* justify-content: space-between; */
 }
 .Reaction .rate p, .Memory .rate p, .Verbal .rate p, .Visual .rate p{
     color: black;
@@ -212,7 +211,7 @@ body{
         position: relative;
         width: 350px;
     }
-    /* .Reaction .text{
+    .Reaction .text{
         margin-right: 210px;
     }
     .Memory .text{
@@ -223,7 +222,7 @@ body{
     }
     .Visual .text{
         margin-right: 225px;
-    } */
+    }
     .card-button{
         margin-left: 25px;
         width: 350px;
