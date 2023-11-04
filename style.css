@@ -210,7 +210,7 @@ body{
     }
     .Reaction, .Memory, .Verbal, .Visual{
         position: relative;
-        width: 100%;
+        width: 350px;
     }
     /* .Reaction .text{
         margin-right: 210px;
