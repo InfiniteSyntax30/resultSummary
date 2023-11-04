@@ -206,31 +206,24 @@ body{
         padding-bottom: 20px;
     }
     .right-row{
-        width: 430px;
+        width: 380px;
         margin-left: 25px; 
     }
-    /* .Reaction, .Memory, .Verbal, .Visual{
-        position: relative;
-        width: 100%;
-        padding: 10px 0px;
-        border: none;
-        outline: none;
-    } */
     .Reaction .text{
-        margin-right: 280px;
+        margin-right: 240px;
     }
     .Memory .text{
-        margin-right: 285px;
+        margin-right: 245px;
     }
     .Verbal .text{
-        margin-right: 295px;
+        margin-right: 255px;
     }
     .Visual .text{
-        margin-right: 295px;
+        margin-right: 255px;
     }
     .card-button{
         margin-left: 25px;
-        width: 430px;
+        width: 380px;
         border-radius: 20px;
     }
     .card-button button{
@@ -240,7 +233,7 @@ body{
 @media screen and (max-width: 376px){
     .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 200px;
         width: 100%;
     }
