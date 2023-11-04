@@ -206,24 +206,24 @@ body{
         padding-bottom: 20px;
     }
     .right-row{
-        width: 380px;
+        width: 100%;
         margin-left: 25px; 
     }
     .Reaction .text{
-        margin-right: 240px;
+        margin-right: 210px;
     }
     .Memory .text{
-        margin-right: 245px;
+        margin-right: 215px;
     }
     .Verbal .text{
-        margin-right: 255px;
+        margin-right: 225px;
     }
     .Visual .text{
-        margin-right: 255px;
+        margin-right: 225px;
     }
     .card-button{
         margin-left: 25px;
-        width: 380px;
+        width: 350px;
         border-radius: 20px;
     }
     .card-button button{
